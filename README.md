@@ -1,2 +1,2 @@
 ### Новостное приложение на основе API newsdata.io
-### Deploy: 
+### Deploy: https://news-ebon-delta.vercel.app/
