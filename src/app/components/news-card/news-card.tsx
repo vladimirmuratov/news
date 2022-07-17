@@ -17,8 +17,10 @@ export const NewsCard: React.FC<ITypeNews> = ({
             <span className={styles.category}>{category[0]}</span>
             <span className={styles.source_id}>{source_id}</span>
             <a href={link} className={styles.title}>{title}</a>
-            {image_url && <img src={image_url} alt={"pic"} className={styles.image}/>}
-            <p className={styles.description}>{description}</p>
+            <div className={styles.body}>
+                {image_url && <img src={image_url} alt={"pic"} className={styles.image}/>}
+                <p className={styles.description}>{description}</p>
+            </div>
         </div>
     )
 }

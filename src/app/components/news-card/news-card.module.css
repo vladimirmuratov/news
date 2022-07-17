@@ -32,7 +32,6 @@
 .title {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 1rem;
     color: var(--gray);
 }
 
@@ -40,13 +39,19 @@
     text-decoration: underline;
 }
 
-.image {
+.body {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
 
+.image {
+    height: 30%;
+    width: 30%;
 }
 
 .description {
     font-size: 2rem;
-    margin: 1rem 0;
 }
 
 @media (max-width: 426px) {
@@ -56,5 +61,14 @@
 
     .description {
         font-size: 1.5rem;
+    }
+
+    .body {
+        flex-direction: column;
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
     }
 }
