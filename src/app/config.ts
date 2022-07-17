@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://newsdata.io/api/1/news?country=ru&apikey=pub_92736d18473ce7317b3ce654281cfd6745f3'

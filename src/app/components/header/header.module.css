@@ -1,0 +1,36 @@
+.header_container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header_title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--gray);
+    text-shadow: 1px 1px #fff,
+    -1px 1px #fff,
+    1px -1px #fff,
+    -1px -1px #fff,
+    1px 1px 5px #555;
+    letter-spacing: 0.5rem;
+}
+
+.header_logo {
+    height: 5rem;
+    position: absolute;
+    left: 1rem;
+}
+
+@media (max-width: 426px) {
+    .header_title {
+        display: none;
+    }
+
+    .header_logo {
+        position: unset;
+    }
+}

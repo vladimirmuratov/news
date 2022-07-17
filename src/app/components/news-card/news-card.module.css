@@ -1,0 +1,60 @@
+.newsCard_container {
+    border-bottom: 2px solid var(--gray);
+    margin: 2rem auto;
+    min-height: 10rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.date,
+.category {
+    align-self: flex-start;
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid var(--white);
+}
+
+.source_id {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    right: 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--gray);
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.image {
+
+}
+
+.description {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+@media (max-width: 426px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+}
